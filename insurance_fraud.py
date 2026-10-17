@@ -18,7 +18,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.ensemble import RandomForestClassifier
 
 # %% [code] Cell 2
-df = pd.read_excel('insurance_claim2.csv')
+df = pd.read_csv('insurance_claim2.csv')
 
 # %% [code] Cell 3
 df.head()
